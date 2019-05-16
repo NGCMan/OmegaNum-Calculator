@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700,300);
+
+body{
+	font-size: 1.5em;
+	font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+.button_group{
+  width: 100%;
+  display: flex;
+}
+button {
+	font-family: 'Oswald', sans-serif;	
+	font-size: 1em;	
+  font-weight: 300;
+	border: 0;
+	padding: 1em 2em;
+  margin: 0.5em 0;
+	width: 100%;
+  background: rgba(0,0,0,0.1);  
+  -webkit-transition:.2s;  
+}
+button:nth-child(2){
+	margin: 0.5em;
+}
+button:hover{
+  background: rgba(0,0,0,0.3);
+}
+button:active{
+  background: rgba(0,0,0,0.5);
+}
+#add:active{
+  	-webkit-transform:translateY(-1em);    
+}
+#subtract:active{
+  	-webkit-transform:translateY(1em);    
+}
+#counter{
+	font-size: 3em;
+	text-align: center;
+  width: 100%;
+  display block;
+  background: rgba(0,0,0,0.1);
+  padding: 2em 0;
+}
+
+/*
+---
+CSS NOTES & THINGS I LEARNED
+- This example is functional without any CSS. 
+- It's not optimized for mobile. =(
+- Removing and overriding the default button styling starts with "border: 0" line 16
+- Using Google Fonts is super easy.
+- Using Flexbox to keep the bottom buttons full width. 
+- "content editable = 'true' " doesn't store the counter value after you press enter. 
+- Added simple hover/active transisions on line 21
+- Transitions longer than 0.5s feel too slow. 
+- Added a simple position translation on lines 33 and 36
+- Using nth-child to call a specific list element
+
+NEXT TIME!
+- I could use Sass to implement the colors next time.
+- Make ±10 numbers more like Super Mario Coins. Numbers pop up and disappear above the button box.
+
+Any one have ideas on the second improvement? Leave a suggestion in the comments.
+
+*/
