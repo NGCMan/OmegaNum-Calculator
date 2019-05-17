@@ -121,6 +121,42 @@ $("#mult10").click(function(){
 });
 
 //Subtract
+$("#sub1").click(function(){
+  counter = counter.sub(1);
+  $("#counter").text(counter);
+});
+$("#sub2").click(function(){
+  counter = counter.sub(2);
+  $("#counter").text(counter);
+});
+$("#sub3").click(function(){
+  counter = counter.sub(3);
+  $("#counter").text(counter);
+});
+$("#sub4").click(function(){
+  counter = counter.sub(4);
+  $("#counter").text(counter);
+});
+$("#sub5").click(function(){
+  counter = counter.sub(5);
+  $("#counter").text(counter);
+});
+$("#sub6").click(function(){
+  counter = counter.sub(6);
+  $("#counter").text(counter);
+});
+$("#sub7").click(function(){
+  counter = counter.sub(7);
+  $("#counter").text(counter);
+});
+$("#sub8").click(function(){
+  counter = counter.sub(8);
+  $("#counter").text(counter);
+});
+$("#sub9").click(function(){
+  counter = counter.sub(9);
+  $("#counter").text(counter);
+});
 $("#sub10").click(function(){
   counter = counter.sub(10);
   $("#counter").text(counter);
