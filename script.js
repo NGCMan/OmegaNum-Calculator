@@ -162,7 +162,21 @@ $("#sub10").click(function(){
   $("#counter").text(counter);
 });
 
-
+// Powers.
+$("#power2").click(function(){
+  counter = counter.pow(2);
+  $("#counter").text(counter);
+});
+// Tetration.
+$("#tetr2").click(function(){
+  counter = counter.tetr(2);
+  $("#counter").text(counter);
+});
+// Pentation.
+$("#pent2").click(function(){
+  counter = counter.pent(2);
+  $("#counter").text(counter);
+});
 // Reset
 $("#reset").click(function(){
   counter = OmegaNum(0);
