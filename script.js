@@ -167,14 +167,114 @@ $("#power2").click(function(){
   counter = counter.pow(2);
   $("#counter").text(counter);
 });
+$("#power3").click(function(){
+  counter = counter.pow(3);
+  $("#counter").text(counter);
+});
+$("#power4").click(function(){
+  counter = counter.pow(4);
+  $("#counter").text(counter);
+});
+$("#power5").click(function(){
+  counter = counter.pow(5);
+  $("#counter").text(counter);
+});
+$("#power6").click(function(){
+  counter = counter.pow(6);
+  $("#counter").text(counter);
+});
+$("#power7").click(function(){
+  counter = counter.pow(7);
+  $("#counter").text(counter);
+});
+$("#power8").click(function(){
+  counter = counter.pow(8);
+  $("#counter").text(counter);
+});
+$("#power9").click(function(){
+  counter = counter.pow(9);
+  $("#counter").text(counter);
+});
+$("#power10").click(function(){
+  counter = counter.pow(10);
+  $("#counter").text(counter);
+});
 // Tetration.
 $("#tetr2").click(function(){
   counter = counter.tetr(2);
   $("#counter").text(counter);
 });
+$("#tetr3").click(function(){
+  counter = counter.tetr(3);
+  $("#counter").text(counter);
+});
+$("#tetr4").click(function(){
+  counter = counter.tetr(4);
+  $("#counter").text(counter);
+});
+$("#tetr5").click(function(){
+  counter = counter.tetr(5);
+  $("#counter").text(counter);
+});
+$("#tetr6").click(function(){
+  counter = counter.tetr(6);
+  $("#counter").text(counter);
+});
+$("#tetr7").click(function(){
+  counter = counter.tetr(7);
+  $("#counter").text(counter);
+});
+$("#tetr8").click(function(){
+  counter = counter.tetr(8);
+  $("#counter").text(counter);
+});
+$("#tetr9").click(function(){
+  counter = counter.tetr(9);
+  $("#counter").text(counter);
+});
+$("#tetr10").click(function(){
+  counter = counter.tetr(10);
+  $("#counter").text(counter);
+});
 // Pentation.
 $("#pent2").click(function(){
   counter = counter.pent(2);
+  $("#counter").text(counter);
+});
+$("#pent2").click(function(){
+  counter = counter.pent(2);
+  $("#counter").text(counter);
+});
+$("#pent3").click(function(){
+  counter = counter.pent(3);
+  $("#counter").text(counter);
+});
+$("#pent4").click(function(){
+  counter = counter.pent(4);
+  $("#counter").text(counter);
+});
+$("#pent5").click(function(){
+  counter = counter.pent(5);
+  $("#counter").text(counter);
+});
+$("#pent6").click(function(){
+  counter = counter.pent(6);
+  $("#counter").text(counter);
+});
+$("#pent7").click(function(){
+  counter = counter.pent(7);
+  $("#counter").text(counter);
+});
+$("#pent8").click(function(){
+  counter = counter.pent(8);
+  $("#counter").text(counter);
+});
+$("#pent9").click(function(){
+  counter = counter.pent(9);
+  $("#counter").text(counter);
+});
+$("#pent10").click(function(){
+  counter = counter.pent(10);
   $("#counter").text(counter);
 });
 // Reset
