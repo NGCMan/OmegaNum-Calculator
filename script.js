@@ -4,6 +4,57 @@ var counter = OmegaNum(0)
 // Display total
 $("#counter").text(counter);
 
+//Square Root
+$("#sqrt").click(function(){
+  counter = counter.sqrt(2);
+  $("#counter").text(counter);
+});
+//Cube Root
+$("#cbrt").click(function(){
+  counter = counter.cbrt(2);
+  $("#counter").text(counter);
+});
+//Division
+$("#div1").click(function(){
+  counter = counter.div(1);
+  $("#counter").text(counter);
+});
+$("#div2").click(function(){
+  counter = counter.div(2);
+  $("#counter").text(counter);
+});
+$("#div3").click(function(){
+  counter = counter.div(3);
+  $("#counter").text(counter);
+});
+$("#div4").click(function(){
+  counter = counter.div(4);
+  $("#counter").text(counter);
+});
+$("#div5").click(function(){
+  counter = counter.div(5);
+  $("#counter").text(counter);
+});
+$("#div6").click(function(){
+  counter = counter.div(6);
+  $("#counter").text(counter);
+});
+$("#div7").click(function(){
+  counter = counter.div(7);
+  $("#counter").text(counter);
+});
+$("#div8").click(function(){
+  counter = counter.div(8);
+  $("#counter").text(counter);
+});
+$("#div9").click(function(){
+  counter = counter.div(9);
+  $("#counter").text(counter);
+});
+$("#div10").click(function(){
+  counter = counter.div(10);
+  $("#counter").text(counter);
+});
 // When button is clicked
 $("#add1").click(function(){
   //Counter
@@ -275,6 +326,35 @@ $("#pent9").click(function(){
 });
 $("#pent10").click(function(){
   counter = counter.pent(10);
+  $("#counter").text(counter);
+});
+// Extra Powers.
+$("#arrow5").click(function(){
+  counter = counter.arrow(5)(2);
+  $("#counter").text(counter);
+});
+$("#arrow6").click(function(){
+  counter = counter.arrow(6)(2);
+  $("#counter").text(counter);
+});
+$("#arrow7").click(function(){
+  counter = counter.arrow(7)(2);
+  $("#counter").text(counter);
+});
+$("#arrow8").click(function(){
+  counter = counter.arrow(8)(2);
+  $("#counter").text(counter);
+});
+$("#arrow9").click(function(){
+  counter = counter.arrow(9)(2);
+  $("#counter").text(counter);
+});
+$("#arrow10").click(function(){
+  counter = counter.arrow(10)(2);
+  $("#counter").text(counter);
+});
+$("#arrow11").click(function(){
+  counter = counter.arrow(11)(2);
   $("#counter").text(counter);
 });
 // Reset
