@@ -17,6 +17,18 @@ body{
   width: 100%;
   display: flex;
 }
+.button_group3{
+  width: 100%;
+  display: flex;
+}
+.button_group4{
+  width: 100%;
+  display: flex;
+}
+.button_group5{
+  width: 100%;
+  display: flex;
+}
 button {
 	font-family: 'Oswald', sans-serif;	
 	font-size: 1em;	
