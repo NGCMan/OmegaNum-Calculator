@@ -14,6 +14,11 @@ $("#cbrt").click(function(){
   counter = counter.cbrt(2);
   $("#counter").text(counter);
 });
+//Factorial
+$("#fact").click(function(){
+  counter = counter.fact(2);
+  $("#counter").text(counter);
+});
 //Division
 $("#div1").click(function(){
   counter = counter.div(1);
